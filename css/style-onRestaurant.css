@@ -1,0 +1,1007 @@
+/* ON RESTAURANT STYLES */
+html.scroll{
+    scroll-behavior: smooth;
+  }
+  
+/* Webfont: CFPanoptik-Bold */
+@font-face {
+    font-family: 'CFPanoptik';
+    src: url('../fonts/CFPanoptik-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/CFPanoptik-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/CFPanoptik-Bold.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/CFPanoptik-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+                font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+  
+  .onRestaurant {
+    scroll-behavior: smooth;
+  }
+  
+  .onRestaurant h1, .onRestaurant .h1, .onRestaurant h2, 
+  .onRestaurant .h2, .onRestaurant h3,.onRestaurant .h3 {
+      font-family: 'CFPanoptik';
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 20px;
+  } 
+  
+  .onRestaurant h1, .onRestaurant .h1 {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .onRestaurant h1, .onRestaurant .h1 {
+      font-size: 60px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 575px) {
+    .onRestaurant h1, .onRestaurant .h1 {
+      font-size: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .onRestaurant h1, .onRestaurant .h1 {
+      font-size: 40px;
+    }
+  }
+  
+  .onRestaurant h2,.onRestaurant .h2 {
+    color: var(--black);
+    font-weight: 700;
+    letter-spacing: 3.6px;
+  
+  } 
+  
+  .onRestaurant h3,.onRestaurant .h3 {
+      color: var(--black);
+      letter-spacing: 2.4px;
+  } 
+  
+  body.onRestaurant  {
+      font-family: 'Alegreya', serif;
+      font-size: 24px;
+      line-height: 1.3;
+      letter-spacing: 0px;
+      background-color: var(--white);
+      text-align: center;
+  }
+  
+  
+  .bez-light {
+      background-color: var(--bez-light);
+      color: var(--grey-dark);
+  }
+  
+  .white-dark2 {
+    background-color: var(--bez-light);
+    color: var(--grey-dark);
+  }
+  
+  
+  .blackBtn, .greenBtn {
+      font-family: 'CFPanoptik';
+      background: var(--black);
+      letter-spacing: 0.7px;
+      padding: 15px 35px;
+      border-radius: 30px;
+      color: var(--white) !important;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 1.5;
+      border:none;
+      transition: .3s linear;
+  }
+  
+  .greenBtn {
+    background: var(--green);
+  }
+  
+  .blackBtn:hover,.greenBtn:hover {
+    background: var(--grey-dark);
+  }
+  
+  
+  .onRestaurant .smallText {
+      font-family: 'Alegreya', serif;
+  }
+  
+  
+  .onRestaurant .padding-distances {
+    padding: 150px 120px;
+  }
+  
+  
+  @media screen and (max-width:1199px) {
+    .onRestaurant .padding-distances {
+      padding: 120px 50px;
+  }
+  }
+  
+  @media screen and (max-width:991px) {
+    .onRestaurant .padding-distances {
+      padding: 80px 20px;
+  }
+  }
+  
+  @media screen and (max-width:480px) {
+    .onRestaurant .padding-distances {
+      padding: 60px 20px;
+  }
+  }
+  
+  /* HISTORY SECTION  */
+  .onRestaurant  .historySection.padding-distances {
+    padding: 150px 0px 250px;
+  }
+  .onRestaurant .historySection .historyText {
+    width: 50%;
+  }
+  
+  .onRestaurant .historyPhotos {
+    background: url(../img/ολυμπος-ναουσα-2.png) no-repeat center center;
+    padding: 50px 0px;
+  
+  }
+  
+  .onRestaurant .historyPhotos img:nth-child(1){
+    position: relative;
+    right: -75px;
+    z-index: 0;
+  }
+  
+  .onRestaurant .historyPhotos img:nth-child(2){
+    position: relative;
+    z-index: 1;
+    right: 10px;
+    top: 120px;
+  }
+  
+  .onRestaurant .historyPhotos img:nth-child(3){
+    position: relative;
+    z-index: 0;
+    right: 30px;
+    top:20px;
+  }
+  
+  .onRestaurant .historyPhotos img:nth-child(4){
+    position: relative;
+    top: 145px;
+    right: 60px;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .onRestaurant .historyPhotos img:nth-child(1) {
+      right: -135px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(2) {
+      top: 165px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(3) {
+      right: 50px;
+      top: 0px;
+    }
+    .onRestaurant .historyPhotos img:nth-child(4) {
+      right: 150px;
+      top: 180px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .onRestaurant  .historySection.padding-distances {
+      padding: 80px 0px 150px;
+    }
+    .onRestaurant .historySection .historyText {
+      width: 80%;
+  }
+    .onRestaurant .historyPhotos img:nth-child(1) {
+      right: -210px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(2) {
+      right: 60px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(3) {
+      right: 80px;
+    }
+    .onRestaurant .historyPhotos img:nth-child(4) {
+      right: 250px;
+    }
+  }
+  
+  
+  @media  screen and (max-width: 767px) {
+    .onRestaurant .historyPhotos {
+      flex-wrap: wrap;
+    }
+    .onRestaurant .historyPhotos img:nth-child(1) {
+      width: 50%;
+      right: 0px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(2) {
+      width: 40%;
+      top: 80px;
+      right: 30px;
+    }
+  
+    .onRestaurant .historyPhotos img:nth-child(3) {
+      width: 40%;
+      top: 85px;
+      right: 0px;
+    }
+    .onRestaurant .historyPhotos img:nth-child(4) {
+      width: 30%;
+      right: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .onRestaurant .historySection .historyText {
+      width: 90%;
+  }
+  }
+  
+  
+  /* TODAY SECTION  */
+  .todaySection img {
+    position: relative;
+    z-index: 1;
+    top: -100px;
+  }
+  
+  @media  screen and (min-width: 1600px){
+    .todaySection  .todayText {
+      width: 60%;
+    }
+  }
+  
+  @media  screen and (max-width: 991px){
+    .todaySection  .todayText {
+      width: 80%;
+    }
+    .todaySection  img {
+      top: unset;
+      margin-top: 30px;
+      max-height: 600px;
+    }
+  }
+  
+  
+  @media  screen and (max-width: 575px){
+    .todaySection  .todayText {
+      width: 95%;
+    }
+    .todaySection  img {
+      top: unset;
+      margin-top: 30px;
+      max-height: unset;
+    }
+  }
+  
+  /* OUR CHEF SECTION  */
+  @media  screen and (min-width: 1600px){
+    .ourChefSection .ourChefText {
+      width: 60%;
+    }
+  }
+  
+  @media  screen and (max-width: 991px){
+    .ourChefSection .ourChefText {
+      width: 80%;
+    }
+  }
+  
+  @media  screen and (max-width: 575px){
+    .ourChefSection .ourChefText {
+      width: 95%;
+    }
+  }
+  
+  
+  /* OUR MENU SECTION  */
+  .onRestaurant .ourMenuSection .row{
+    margin-top: 70px;
+  }
+  
+  .onRestaurant .ourMenuSection .ourMenuText {
+      padding: 10px;
+  }
+  
+  .onRestaurant .seeTheMenu {
+    margin-top: 80px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .onRestaurant .seeTheMenu {
+      margin-top: 50px;
+    }
+  }
+  
+  /* IMAGE SECTION  */
+  .onRestaurant .onRestaurtImageSection {
+    background: url(../img/Olympos-Naoussa-2.jpg) no-repeat center center/ cover;
+    height: 800px;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .onRestaurant .onRestaurtImageSection {
+      height: 600px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 575px) {
+    .onRestaurant .onRestaurtImageSection {
+      height: 400px;
+    }
+  }
+  
+  /* BOOK TABLE SECTION  */
+  .onRestaurant .bookTableText {
+      width: 50%;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .onRestaurant .bookTableText {
+      width: 80%;
+  }
+  }
+  
+  /* footer  */
+  
+  .onRestaurant .footer a {
+    word-break: break-word;
+  }
+  .onRestaurant .footer a:hover {
+    color: var(--black);
+  }
+  
+  
+  .onRestaurant .footer .copyrightText {
+      position: relative;
+      padding: 120px 120px 0px;
+      display: block;
+  }
+  
+  .onRestaurant .footer .copyrightText p{
+      display: inline;
+      text-align: center;
+      color: var(--grey-dark);
+      font-size: 16px;
+  }
+  
+  .onRestaurant .footer .copyrightText a {
+      color: var(--black);
+      font-size: 18px;
+      border-bottom: 1px solid var(--green);
+  }
+  
+  .onRestaurant .footer-logos img{
+      max-width: 200px;
+      margin-bottom: 40px;
+  }
+  
+  .onRestaurant .footertitle {
+      font-family: 'CFPanoptik';
+      font-weight: 700;
+      text-align: center;
+      color: var(--black);
+      letter-spacing: 0.8px;
+      font-size: 16px;
+      text-transform: uppercase;
+  }
+  
+  
+  .onRestaurant .contantLinks a:last-child{
+    border-bottom: 1px solid var(--green);
+  }
+  
+  .onRestaurant .contantLinks a{
+    font-family: 'Alegreya', serif;
+    font-size: 44px;
+    line-height: 1.5;
+    color: var(--grey-dark);
+  }
+  
+  .onRestaurant .socialLinks a {
+    margin: 10px;
+  }
+  
+  .onRestaurant .locationText {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--grey-dark);
+  }
+  
+  .onRestaurant .locationText a{
+    border-bottom: 1px solid var(--green);
+    color: var(--grey-dark);
+  }
+  
+  .onRestaurant .restaurantFooter .row:nth-child(2) {
+    margin-top: 120px !important;
+  }
+  
+  
+  @media screen and (max-width: 1650px) {
+    .onRestaurant .contantLinks a {
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width:991px) {
+    .onRestaurant .restaurantFooter .row:nth-child(2) {
+      margin-top: 90px !important;
+    }
+    
+    .onRestaurant .footer .copyrightText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 0px 0px;
+    }
+  
+    .onRestaurant .footer .copyrightText a{
+      order: 1;
+      margin-bottom: 30px;
+    }
+  
+    .onRestaurant .footer .copyrightText p{
+      order: 2;
+    }
+    .onRestaurant .contantLinks a {
+      font-size: 22px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .onRestaurant .footer .col-padding { 
+      padding: 100px 0px 150px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .onRestaurant .contantLinks a {
+      font-size: 25px;
+    }
+  }
+  
+  
+  /* ON RESTAURANT Modals  */
+  
+  .onRestaurant .modal.green .close {
+    color: var(--black);
+  }
+  
+  .onRestaurant .modal {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .onRestaurant .modal h3{
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .onRestaurant .modal .text-black{
+    color: var(--black) !important;
+    font-style: italic;
+    font-size: 24px;
+  }
+  
+  .onRestaurant .modal .text-black a {
+    font-family: 'Alegreya', serif;
+    display: block;
+    font-style: normal;
+    margin-top: 10px;
+  }
+  
+  .onRestaurant .modal p{
+    margin-bottom: 30px;
+  }
+  
+  
+  .bookTableForm label {
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+  
+  .bookTableForm .form-control {
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    color: var(--white);
+  }
+  
+  .bookTableForm .form-control:focus {
+    border: none;
+    border-bottom: 1px solid var(--black);
+      box-shadow: none;
+  }
+  
+  
+  #ourMenuModal {
+    padding-right: 0px !important;
+  }
+  #ourMenuModal .modal-header {
+    display: block;
+  }
+  
+  #ourMenuModal .modal-body {
+    margin-top: 120px;
+  }
+  
+  #ourMenuModal .modal-dialog {
+    max-width: 100%;
+    width: 100%;
+    margin: 0px !important;
+  }
+  
+  
+  #ourMenuModal .modal-content {
+    padding: 0px;
+  }
+  
+  #ourMenuModal .modalMenuTitle {
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    color: #000000;
+    font-size: 26px;
+  }
+  
+  #ourMenuModal .close {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #ourMenuModal .close span {
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    position: relative;
+    bottom: 1.5px;
+    margin-right: 10px;
+  }
+  
+  
+  #ourMenuModal .menuList ul li {
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    color: var(--grey-dark);
+    margin-bottom: 20px;
+  }
+  
+  #ourMenuModal .menuList ul li span{
+      display: block;
+  }
+  
+  #ourMenuModal .menuList ul li .desc{
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    #ourMenuModal .close span {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+    #ourMenuModal .modal-body {
+      margin-top: 80px;
+    }
+  }
+  
+  
+  
+  /* SLIDER PHOTOS  */
+  
+  .gallery_slider .owl-item.active .item img{
+       position: relative;
+       height: 800px;
+       margin-top: 0px;
+      
+    }
+  
+    
+    .gallery_slider .owl-item .item img{
+        position: relative;
+        height: 600px;
+        margin-top: 50px;
+    }
+  
+    .slider-counter {
+        font-family: 'Alegreya', serif;
+        z-index: 99;
+        top: 15%;
+        position: absolute;
+        text-align: center;
+        right: 11%;
+        font-size: 80px;
+        color: var(--grey-dark);
+        font-weight: 400;
+    }
+  
+    
+    .gallery_slider.owl-carousel {
+      backface-visibility: hidden;
+      position: relative;
+    }
+  
+    .gallery_slider.owl-carousel .owl-nav {
+      top: 40%;
+      right: 18%;
+      width: unset;
+    }
+  
+    .gallery_slider.owl-carousel .owl-item.active {
+        width: 80vw !important;
+    }
+  
+    .gallery_slider .owl-nav button.owl-prev,.gallery_slider .owl-nav button.owl-next{
+       border: solid 1px #9E9E9E!important;
+       position: absolute;
+       z-index: 1000;
+       transform: none;
+       color: #000;
+    }
+  
+    .gallery_slider .owl-nav button.owl-prev{
+       /* left: 0; */
+       top: 120px;
+       background: url(../img/left-arrow.svg) no-repeat center center, #fff !important;
+       background-size: 30px;
+    }
+  
+    .gallery_slider .owl-nav button.owl-next{
+       /* right: 0; */
+       background: url(../img/right-arrow.svg) no-repeat center center, #fff !important;
+       background-size: 30px;
+    }
+  
+   .gallery_slider i.owl-direction {
+        margin: 0 13px;
+        font-size: 3em;
+        padding: 0;
+        color: #607D8B;
+    }
+  
+    .gallery_slider .owl-nav button.owl-next,.gallery_slider .owl-nav button.owl-prev{
+        outline: 0;
+    }
+  
+  
+    @media screen and (max-width: 1199px) { 
+      .gallery_slider .owl-item.active .item img{
+        height: 600px;     
+     }
+   
+     
+     .gallery_slider .owl-item .item img{
+         height: 500px;
+     }
+  
+     .slider-counter {
+       right: 7%;
+     }
+  
+    }
+  
+  @media screen and (max-width: 991px) {
+    
+
+    .gallery_slider.owl-carousel .owl-item.active {
+        width: 100vw!important;
+    }
+    .gallery_slider .owl-item.active .item img {
+      height: unset;
+    }
+  
+    .gallery_slider .owl-item .item img {
+      height: auto;
+      margin-top: 0px;
+    }
+  
+    .gallery_slider.owl-carousel .owl-nav {
+      width: 100%;
+      right: unset;
+    }
+  
+    .gallery_slider .owl-nav button.owl-next {
+      right: 0;
+    }
+  
+    .gallery_slider .owl-nav button.owl-prev {
+      top: 0;
+      left: 0;
+    }
+  
+    .slider-counter {
+      top: unset;
+      right: 0px;
+      padding: 10px 20px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .gallery_slider .owl-nav button.owl-next,.gallery_slider .owl-nav button.owl-prev{
+      height: 50px;
+      width: 50px;
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 575px) {
+    .gallery_slider .owl-nav button.owl-next,.gallery_slider .owl-nav button.owl-prev{
+      height: 50px;
+      width: 50px;
+    }
+    .slider-counter {
+      font-size: 40px;
+    }
+    
+  }
+  
+  
+  /* CAROUSEL ON RESTAURANT  */
+  .onRestaurant .carousel .overlay::before{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    top: 0;
+    left: 0;
+  }
+  
+  .onRestaurant .carousel .contentOverSlider { 
+    width: 80%;
+  }
+  
+  .onRestaurant .carousel .contentOverSlider .h1{
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  
+  .onRestaurant .topMedia { 
+    height: 100vh;
+    margin-top: 0px;
+  }
+  
+  @media screen and (max-width: 575px ) {
+    .onRestaurant .carousel .contentOverSlider { 
+      width: 95%;
+    }
+  }
+  
+  
+  /* ON RESTAURANT HEADER  */
+  .onRestaurant header {
+    background: transparent;
+    padding: 10px 40px;
+    height: auto;
+  }
+  
+  .onRestaurant .header.tiny {
+    background: rgba(0, 0, 0, 0.65);
+    height: auto;
+  }
+  
+  .onRestaurant .header .headerLogo {
+    width: 130px;
+    height: auto;
+  }
+  
+  
+  .onRestaurant .header.menuHeader .headerLogo
+  {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/Group\ 129.svg) no-repeat center center;
+    width: 180px; /* Width of new image */
+    height: 80px; /* Height of new image */
+    padding-left: 180px; /* Equal to width of new image */
+    filter: none;
+  }
+  
+  
+  .onRestaurant  .header .menu-btn {
+    width: 80px;
+    height: 25px;
+    background: url(../img/menu.svg) no-repeat right 2px;
+    cursor: pointer;
+  }
+  
+  .header .menu-btn.active {
+    background: url(../img/closeMenu.svg) no-repeat right 2px;
+  }
+  
+  
+  .onRestaurant .menu-container {
+    background: var(--bez-light);
+  } 
+  .onRestaurant .onRestaurantHeaderMenu {
+    display: inline-flex;
+    list-style:  none;
+  }
+  
+  .onRestaurant .onRestaurantHeaderMenu li {
+    margin-right: 50px;
+  }
+  
+  .onRestaurant .onRestaurantHeaderMenu li a{
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color:  var(--white);
+    text-transform: uppercase;
+  }
+  
+  .onRestaurant .onRestaurantHeaderMenu li a:last-child{
+    margin-right: 0px;
+  }
+  
+  /* LANGUAGES */ 
+  .languagesDrop .dropdown-toggle {
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    color:  var(--white);
+    border: none;
+    background: transparent;
+  }
+  
+  .onRestaurant .header.menuHeader .languagesDrop .dropdown-toggle { 
+   display: none;
+  }
+  
+  
+  .languagesDrop .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .languagesDrop a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .languagesDrop .dropdown-menu {
+    min-width: 40px;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    left: 0px !important;
+    top: 22px !important;
+  }
+  
+  .languagesDrop .dropdown-item {
+    display: block;
+    padding: 0px;
+    text-align: center;
+    padding: 0 5px;
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--black);
+  }
+  
+  .languagesDrop .dropdown-item:hover {
+    background: none;
+    color: #000000;
+  }
+  
+  .dropdown.active .dropdown-menu,
+  .dropdown:hover .dropdown-menu {
+    position: absolute !important;
+    display: block;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 8px 10px;
+    font-size: inherit;
+    z-index: 1030;
+    left: 20px;
+    top: calc( 100% - 2px);
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  .dropdown .dropdown-menu li {
+    display: block;
+    padding: 10px 5px 0px 5px;
+  }
+  
+  .onRestaurant .menu-content {
+    top: 50%;
+  }
+  
+  .onRestaurant .menu-content .menu-items a {
+    font-family: 'CFPanoptik';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    color: var(--black);
+    margin: 35px 0px;
+    padding: 0px;
+  }
+  
+  .onRestaurant .header.tiny.menuHeader {
+    background: transparent;
+  }
+  
+  @media screen and (max-width: 2000px){
+    .onRestaurant .onRestaurantHeaderMenu li {
+      margin-right: 30px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1600px) {
+    .onRestaurant .onRestaurantHeaderMenu li {
+      margin-right: 25px;
+    }
+    .onRestaurant .onRestaurantHeaderMenu li a {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .languagesDrop .dropdown-toggle {
+      font-size: 16px;
+    }
+  
+    .onRestaurant .header.tiny .headerLogo {
+      width: 90px;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .onRestaurant .header .menu-btn {
+      width: 35px;
+    }
+    .header .menu-btn.active {
+      width: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .onRestaurant header {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-height:700px) {
+    .onRestaurant .menu-content {
+      top: 60%;
+    }
+  }
+  
+  
+  
+  
